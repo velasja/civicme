@@ -1,0 +1,28 @@
+.col {
+  justify-content: center;
+  width: 40% !important;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.password input {
+  -webkit-text-security: disc;
+}
+
+.col > div {
+  width: 100% !important;
+  justify-content: center !important;
+}
+
+.loginButton {
+  margin: 30px 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .col {
+    width: 70% !important;
+  }
+}
